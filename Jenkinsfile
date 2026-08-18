@@ -6,13 +6,13 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                echo 'Build stage triggered automatically from GitHub by riyaz009shaik'
+                echo 'Build stage triggered automatically from GitHub by riyaz009-shaik'
             }
         }
 
         stage('Build') {
             steps {
-                echo 'Building DevOps applicatio'
+                echo 'Building DevOps application'
             }
         }
 
