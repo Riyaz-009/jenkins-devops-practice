@@ -6,7 +6,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                echo 'Build stage triggered automatically from GitHub by riyaz'
+                echo 'Build stage triggered automatically from GitHub by riyazshaik'
             }
         }
 
